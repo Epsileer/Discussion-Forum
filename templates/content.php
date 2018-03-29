@@ -1,12 +1,12 @@
 <!--Content Area starts-->
 			<div id="content">
-				<div style="float: left;">
-					<img src="images/images.png" style="margin-right: 40px; width: 350px;" />
+				<div id="content_img">
+					<img src="images/images.png" style="padding: 100px; width: 30px;height: 300px;width: 700px;" />
 				</div>
 		<div id ="form2">
 		<form action="user_insert.php" method="post">
 			<h2>Sign Up Here</h2>
-			<table>
+			<table cellspacing="10">
 				<tr>
 					<td align="right">Name:</td>
 					<td>
