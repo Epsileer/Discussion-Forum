@@ -1,0 +1,142 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: skyblue;
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+}
+#content{
+	width: 780px;
+	height: 600px;
+	float: right;
+	background-color: white;
+}
+#side_bar{
+	width: 220px;
+	height: 600px;
+	float: left;
+	background-color: lightgray;
+}
+#menu{
+	line-height: 30px;
+	padding: 0px;
+	font-family: arial;
+}
+#menu li{
+	list-style: none;
+	display: block;
+	margin-left: 20px;
+	padding: 10px;
+}
+#menu a{
+	color: orange;
+	font-size: 18px;
+	text-decoration: none;
+	margin:10px;
+	font-weight: bold;
+}
+#menu a:hover{
+	color: brown;
+	font-weight: bolder;
+}
+#head{
+	margin:auto;
+	width: 1000px;
+	height: 100px;
+	border-bottom: 3px solid brown;
+}
+#foot{
+	width: 1000px;
+	height: 50px;
+	background-color: black;
+	clear: both;
+}
+
+
+
+
+
+
+#edit_form input{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+
+}
+#edit_form textarea{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+	
+}
+#edit_form select{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+	
+}
+#edit_form textarea:hover{
+	background: pink;
+}
+#edit_form select:hover{
+	background: pink;
+}
+#edit_fomr input:hover{
+	background: pink;
+}
+#edit_form h2{
+	color: gray;
+	font-family:Arial;
+}
+
+
+
+#form2
+{
+	padding: 30px;
+	padding-right:  20px;
+	
+}
+#form2 input{
+	width: 250px;
+	height: 20px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+#form2 select{
+	width: 270px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#form2 button{
+	float: right;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 270px;
+}
+#form2 h2{
+	font-family: arial;
+	padding: 5px;
+	color: gray;
+}
+
+#form2 button:hover{
+	float: right;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 270px;
+	background-color: blue;
+	color: white;
+}
